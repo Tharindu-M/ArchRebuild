@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "app.win365casino.archrebuild.shared.test"
+    namespace = "app.example.archrebuild.shared.test"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -25,8 +25,6 @@ android {
 dependencies {
     implementation(project(":app"))
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     implementation(libs.androidx.runner)
     implementation(libs.androidx.junit)
 //    implementation(libs.androidx.espresso.core)
